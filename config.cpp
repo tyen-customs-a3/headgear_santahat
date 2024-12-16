@@ -94,6 +94,15 @@ class CfgWeapons
                 camo1
             };
             uniformModel = "\tc\headgear_santahat\santahat.p3d";
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = HitHead;
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
         };
     };
 
